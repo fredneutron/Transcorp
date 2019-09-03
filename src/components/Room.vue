@@ -196,4 +196,78 @@ export default {
   height: 80px;
   object-fit: contain;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .room{
+    z-index: 2;
+    margin-top: -700px;
+    flex-direction: column;
+  }
+  .luxury-in > .col-5{
+    width: 100%;
+  }
+  .luxury-in > .col-5 > div.col-12{
+    width: 70%;
+  }
+  .luxury-in > .col-5 > div.col-12 > .row > .col-6{
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .room{
+    z-index: 2;
+    margin-top: -970px;
+    flex-direction: column;
+  }
+  .luxury-in > .col-5{
+    width: 100%;
+  }
+  .luxury-in > .col-5 > div.col-12{
+    width: 60%;
+  }
+  .luxury-in > .col-5 > div.col-12 > .row > .col-6{
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .room{
+    z-index: 2;
+    margin-top: -1350px;
+    flex-direction: row;
+  }
+  .luxury-in > .col-5{
+    padding: 30px 0;
+  }
+  .luxury-in > .col-5 > div.col-12{
+    width: 80%;
+  }
+  .luxury-in > .col-5 > div.col-12 > .row > .col-6{
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .room{
+    z-index: 2;
+    margin-top: -1700px;
+    flex-direction: row;
+  }
+  .luxury-in > .col-5{
+    padding: 50px 0;
+  }
+  .luxury-in > .col-5 > div.col-12 > .row > .col-6{
+    height: 250px;
+  }
+}
 </style>
