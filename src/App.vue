@@ -103,6 +103,7 @@ div.header{
 .bg{
   margin-top: -380px;
   z-index: 2;
+  margin-bottom: 122px;
 }
 footer{
   position: relative;

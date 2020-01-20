@@ -23,8 +23,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .connect{
-   width: 100%;
-   text-align: justify;
+  z-index: 1;
+  width: 100%;
+  text-align: justify;
  }
  .connect .row{
    width: 100%;

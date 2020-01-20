@@ -17,16 +17,40 @@
       <div class="col-3">
         <p class="signup">Sign up to get our newsletter</p>
         <form>
-          <input type="email" placeholder="Your email….">
-          <i name="fa fa-paper-plane"></i>
-          <hr>
+          <div>
+            <input type="email" placeholder="Your email….">
+            <i name="fa fa-paper-plane"></i>
+            <hr>
+          </div>
         </form>
       </div>
     </div>
-    <img src="../assets/images/group-9.png"
-      srcset="../assets/images/group-9@2x.png 2x,
-        ../assets/images/group-9@3x.png 3x"
-      class="Group-9">
+    <div class="social">
+      <a href="#"><img src="../assets/images/fill-3.png"
+      srcset="../assets/images/fill-3@2x.png 2x,
+        ../assets/images/fill-3@3x.png 3x"
+      class="Group-9"></a>
+      <i name=""></i>
+      <a href="#"><img src="../assets/images/fill-1.png"
+      srcset="../assets/images/fill-1@2x.png 2x,
+        ../assets/images/fill-1@3x.png 3x"
+      class="Group-9"></a>
+      <i name=""></i>
+      <a href="#"><img src="../assets/images/group-7.png"
+      srcset="../assets/images/group-7@2x.png 2x,
+        ../assets/images/group-7@3x.png 3x"
+      class="Group-9"></a>
+      <i name=""></i>
+      <a href="#"><img src="../assets/images/fill-33.png"
+      srcset="../assets/images/fill-33@2x.png 2x,
+        ../assets/images/fill-33@3x.png 3x"
+      class="Group-9"></a>
+      <a href="#"><img src="../assets/images/fill-23.png"
+      srcset="../assets/images/fill-23@2x.png 2x,
+        ../assets/images/fill-23@3x.png 3x"
+      class="Group-9"></a>
+      <i name=""></i>
+    </div>
   </footer>
 </template>
 
@@ -135,7 +159,10 @@ footer div.row div.col-2 ul li{
 footer div.row div.col-2 ul li a{
   color: #9b9b9b;
 }
-.signup, footer .row .col-3 form input{
+footer .row .col-3 form div{
+  width: 190px;
+}
+.signup, footer .row .col-3 form div input{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -144,18 +171,24 @@ footer div.row div.col-2 ul li a{
   line-height: normal;
   letter-spacing: 0.39px;
   color: #9b9b9b;
+  
 }
-footer .row .col-3 form input{
+footer .row .col-3 form div input{
   background-color: #211f20;
   border: none;
+  width: 190px;
+  outline: none;
 }
-footer .row .col-3 form hr{
+footer .row .col-3 form div hr{
   color: #211f20;
 }
 .Group-9{
   object-fit: contain;
+  padding: 0px 10px;
+}
+.social{
   float: right;
-  margin-right: 170px;
+  margin-right: 130px;
 }
 li a{
   text-decoration: none;

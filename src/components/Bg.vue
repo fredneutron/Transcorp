@@ -4,7 +4,7 @@
       srcset="../assets/images/rectangle-11@2x.png 2x"
       class="Rectangle-11">
     <room class="room" />
-    <!-- <testimonial /> -->
+    <testimonial />
     <blog />
   </div>
 </template>

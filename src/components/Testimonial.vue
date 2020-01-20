@@ -104,12 +104,12 @@ export default {
       // display current slide only 
       this.viewSlide(this.currentSlide);
       // set conditional rule for time func
-      (this.currentSlide <= this.testimonies.length) ? this.currentSlide+= 1 : this.currentSlide = 0;
+      (this.currentSlide < (this.testimonies.length-1)) ? this.currentSlide+= 1 : this.currentSlide = 0;
     },
   },
   created() {
-    window.onload(e =>this.viewSlide(this.currentSlide)); 
-    // setInterval(() => this.changeSlide(), 5000);
+    window.onload = this.changeSlide(); 
+    setInterval(() => this.changeSlide(), 5000);
   }
 }
 </script>
