@@ -97,10 +97,68 @@ nav ul li a{
   color: #526173
 }
 .transcorp1{
-  width: 190px;
-  height: 39px;
   -o-object-fit: contain;
      object-fit: contain;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact{
+    width: 95%;
+    margin: 0px auto;
+  }
+  .nav{
+    width: 100%;
+  }
+  .nav ul li{
+    padding: 7px 4px;
+  }
+  .transcorp1{
+    width: 50px !important;
+  }
+}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact{
+    width: 90%;
+    margin: 0px auto;
+  }
+  .nav{
+    width: 90%;
+  }
+  .nav ul li{
+    padding: 10px 7px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .contact{
+    width: 80%;
+    margin: 0px auto;
+  }
+  .nav{
+    width: 80%;
+  }
+  .transcorp1{
+    width: 150px;
+    height:  39px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .nav{
+    width: 60%;
+  }
+  .transcorp1{
+    width: 190px;
+    height:  39px;
+  }
+}
 </style>

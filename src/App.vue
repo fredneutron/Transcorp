@@ -30,7 +30,6 @@ export default {
 }
 div.nav{
   margin: 0px auto;
-  width: 60%;
   position: absolute;
   left: 0;
   right: 0;
