@@ -139,9 +139,6 @@ footer{
 footer .row{
   margin-top: 80px;
 }
-footer .row .col-2{
-  width: 18%
-}
 footer div.row div.col-2 ul li{
   height: 18px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -192,5 +189,67 @@ footer .row .col-3 form div hr{
 }
 li a{
   text-decoration: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  footer{
+    height: 700px;
+  }
+  footer > .row{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  footer > .row >.col-2{
+    width: 40%
+  }
+  footer > .row >.col-3{
+    margin-left: 7%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  footer{
+    height: 700px;
+  }
+  footer > .row{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  footer > .row >.col-2{
+    width: 25%
+  }
+  footer > .row >.col-3{
+    margin-left: 5%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  footer{
+    height: 343px;
+  }
+  footer > .row{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer > .row >.col-2{
+    width: 20%
+  }
+  footer > .row >.col-3{
+    margin-left: 0%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  footer >.row >.col-2{
+    width: 18%
+  }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="connect">
     <div class="row">
-      <map width="58%" class="col-7" />
+      <mapper width="100%" height="700px" class="col-7" />
       <connect :state="state" :address="address" :email="email" :phoneNumber="phoneNumber" class="col-5" />
     </div>
   </div>
@@ -39,5 +39,39 @@ export default {
    padding-top: 20px;
    background-color: #ffffff;
  }
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .connect > .row{
+    flex-direction: column-reverse;
+  }
+}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .connect > .row{
+    flex-direction: column-reverse;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .connect > .row{
+    flex-direction: row;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .connect{
+    margin-top: -100px;
+  }
+  .connect > .row{
+    flex-direction: row;
+  }
+}
 </style>

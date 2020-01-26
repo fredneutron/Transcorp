@@ -47,10 +47,10 @@ export default {
           title: 'Five reasons to  stay at the beautiful Transcorp Hotel',
           date: '04/10/2018',
           image: {
-            src: 'rectangle-4-copy-7.png',
+            src: 'rectangle-4-copy-7_2.png',
             srcset: {
-              x2: 'rectangle-4-copy-7@2x.png',
-              x3: 'rectangle-4-copy-7@3x.png'
+              x2: 'rectangle-4-copy-7_2@2x.png',
+              x3: 'rectangle-4-copy-7_2@3x.png'
             }
           },
           link: ''
@@ -59,10 +59,10 @@ export default {
           title: 'Five reasons to  stay at the beautiful Transcorp Hotel',
           date: '04/10/2018',
           image: {
-            src: 'rectangle-4-copy-7.png',
+            src: 'rectangle-4-copy-7_3.png',
             srcset: {
-              x2: 'rectangle-4-copy-7@2x.png',
-              x3: 'rectangle-4-copy-7@3x.png'
+              x2: 'rectangle-4-copy-7_3@2x.png',
+              x3: 'rectangle-4-copy-7_3@3x.png'
             }
           },
           link: ''
@@ -136,5 +136,35 @@ export default {
 .Rectangle-4-Copy-7{
   width: 100%;
   object-fit: contain;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .blog > .row{
+    flex-direction: column;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .blog > .row{
+    flex-direction: column;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .blog > .row{
+    flex-direction: row;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
 }
 </style>

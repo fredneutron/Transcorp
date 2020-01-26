@@ -3,7 +3,7 @@
     <div>
       <h1>about us</h1>
       <h3>A best place to enjoy your life</h3>
-      <p>Transcorp Hilton Hotel is situated in the heart of Nigeria’s Federal Capital Territory, a 40-minute drive from the Nnamdi Azikiwe International Airport in Abuja. It is a 670–room, 5-star hotel that provides luxury accommodation, exotic cuisine, and fully equipped meeting rooms and to business travellers and tourists from all over the world</p>
+      <p>Transcorp Hilton Hotel is situated in the heart of Nigeria’s Federal Capital Territory, a 40-minute drive from the Nnamdi Azikiwe International Airport in Abuja. It is a 670–room, 5-star hotel that provides luxury accommodation, exotic cuisine, and fully equipped meeting rooms and to business travellers and tourists from all over the world.</p>
     </div>
     <img src="../assets/images/rectangle-7.png"
       srcset="../assets/images/rectangle-7@2x.png 2x,
@@ -26,7 +26,7 @@ export default {
 .about{
   margin: 100px auto;
   text-align: center;
-  width: 751px;
+  width: 100%;
 }
 .about div{
   margin: 100px auto;
@@ -75,5 +75,37 @@ export default {
 div.con-space{
   margin-top: 60px;
   margin-bottom: 100px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .about div{
+    width: 90%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .about div{
+    width: 80%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .about div{
+    width: 60%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .about div{
+    width: 50%;
+  }
 }
 </style>

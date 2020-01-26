@@ -2,9 +2,9 @@
   <div id="app">
     <nav-bar class="nav" />
     <head-liner class="header" />
-    <about />
+    <about id="about" />
     <bg class="bg" />
-    <contact />
+    <contact id="contact" />
     <foot />
   </div>
 </template>
@@ -30,7 +30,6 @@ export default {
 }
 div.nav{
   margin: 0px auto;
-  width: 60%;
   position: absolute;
   left: 0;
   right: 0;
@@ -40,6 +39,10 @@ div.nav{
 div.header{
   margin-top: 0px;
   z-index: 2;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 .about{
   position: relative;

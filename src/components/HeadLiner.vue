@@ -7,7 +7,7 @@
       srcset="../assets/images/ic-play-circle-outline@2x.png 2x,
               ../assets/images/ic-play-circle-outline@3x.png 3x"
       class="ic_play_circle_outline">
-    <header-line class="-head"/>
+    <header-line class="-head" id="reserve"/>
   </div>
 </template>
 
@@ -56,8 +56,44 @@ export default {
   height: 50px;
   object-fit: contain;
 }
-.-head{
-  margin-top: 300px;
-  width: 65%;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .-head{
+    margin-top: 300px;
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .-head{
+    margin-top: 300px;
+    width: 95%;
+  }
+  button.promo-btn{
+    width: 120px;
+    height: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  button.promo-btn{
+    width: 150px;
+    height: 45px;
+  }
+  .-head{
+    margin-top: 300px;
+    width: 80%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .-head{
+    margin-top: 300px;
+    width: 65%;
+  }
 }
 </style>
