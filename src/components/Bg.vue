@@ -3,9 +3,9 @@
     <img src="../assets/images/rectangle-11.png"
       srcset="../assets/images/rectangle-11@2x.png 2x"
       class="Rectangle-11">
-    <room class="room" />
+    <room class="room" id="rooms"/>
     <testimonial />
-    <blog />
+    <blog id="blog" />
   </div>
 </template>
 

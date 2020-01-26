@@ -47,10 +47,10 @@ export default {
           title: 'Five reasons to  stay at the beautiful Transcorp Hotel',
           date: '04/10/2018',
           image: {
-            src: 'rectangle-4-copy-7.png',
+            src: 'rectangle-4-copy-7_2.png',
             srcset: {
-              x2: 'rectangle-4-copy-7@2x.png',
-              x3: 'rectangle-4-copy-7@3x.png'
+              x2: 'rectangle-4-copy-7_2@2x.png',
+              x3: 'rectangle-4-copy-7_2@3x.png'
             }
           },
           link: ''
@@ -59,10 +59,10 @@ export default {
           title: 'Five reasons to  stay at the beautiful Transcorp Hotel',
           date: '04/10/2018',
           image: {
-            src: 'rectangle-4-copy-7.png',
+            src: 'rectangle-4-copy-7_3.png',
             srcset: {
-              x2: 'rectangle-4-copy-7@2x.png',
-              x3: 'rectangle-4-copy-7@3x.png'
+              x2: 'rectangle-4-copy-7_3@2x.png',
+              x3: 'rectangle-4-copy-7_3@3x.png'
             }
           },
           link: ''

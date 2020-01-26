@@ -2,9 +2,9 @@
   <div id="app">
     <nav-bar class="nav" />
     <head-liner class="header" />
-    <about />
+    <about id="about" />
     <bg class="bg" />
-    <contact />
+    <contact id="contact" />
     <foot />
   </div>
 </template>

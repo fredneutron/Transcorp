@@ -7,7 +7,7 @@
       srcset="../assets/images/ic-play-circle-outline@2x.png 2x,
               ../assets/images/ic-play-circle-outline@3x.png 3x"
       class="ic_play_circle_outline">
-    <header-line class="-head"/>
+    <header-line class="-head" id="reserve"/>
   </div>
 </template>
 

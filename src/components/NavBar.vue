@@ -23,31 +23,31 @@ export default {
       url: [
         {
         name: 'Home',
-        src: ''
+        src: '/.'
       },
       {
         name: 'About Us',
-        src: ''
+        src: '#about'
       },
       {
         name: 'Our Rooms',
-        src: ''
+        src: '#rooms'
       },
       {
         name: `<img src='${require(`../assets/images/transcorp-1.png`)}' srcset='${require(`../assets/images/transcorp-1@2x.png`)} 2x, ${require(`../assets/images/transcorp-1@3x.png`)} 3x' class='transcorp1'>`,
-        src: ''
+        src: '/.'
       },
       {
         name: 'Reservation',
-        src: ''
+        src: '#reserve'
       },
       {
         name: 'Blog',
-        src: ''
+        src: '#blog'
       },
       {
         name: 'Contact Us',
-        src: ''
+        src: '#contact'
       }]
     }
   }

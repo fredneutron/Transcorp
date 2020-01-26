@@ -3,7 +3,7 @@
     <div>
       <h1>about us</h1>
       <h3>A best place to enjoy your life</h3>
-      <p>Transcorp Hilton Hotel is situated in the heart of Nigeria’s Federal Capital Territory, a 40-minute drive from the Nnamdi Azikiwe International Airport in Abuja. It is a 670–room, 5-star hotel that provides luxury accommodation, exotic cuisine, and fully equipped meeting rooms and to business travellers and tourists from all over the world</p>
+      <p>Transcorp Hilton Hotel is situated in the heart of Nigeria’s Federal Capital Territory, a 40-minute drive from the Nnamdi Azikiwe International Airport in Abuja. It is a 670–room, 5-star hotel that provides luxury accommodation, exotic cuisine, and fully equipped meeting rooms and to business travellers and tourists from all over the world.</p>
     </div>
     <img src="../assets/images/rectangle-7.png"
       srcset="../assets/images/rectangle-7@2x.png 2x,

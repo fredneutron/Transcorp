@@ -44,10 +44,10 @@ export default {
           name: 'Classic',
           price: 40.00,
           image: {
-            src: 'rectangle-9-copy.png',
+            src: 'rectangle-9-copy-2.png',
             srcset: {
-              x2: 'rectangle-9-copy@2x.png',
-              x3: 'rectangle-9-copy@3x.png'
+              x2: 'rectangle-9-copy-2@2x.png',
+              x3: 'rectangle-9-copy-2@3x.png'
             }
           }
         },
@@ -55,10 +55,10 @@ export default {
           name: 'Classic',
           price: 40.00,
           image: {
-            src: 'rectangle-9-copy.png',
+            src: 'rectangle-9-copy-2.png',
             srcset: {
-              x2: 'rectangle-9-copy@2x.png',
-              x3: 'rectangle-9-copy@3x.png'
+              x2: 'rectangle-9-copy-2@2x.png',
+              x3: 'rectangle-9-copy-2@3x.png'
             }
           }
         },
@@ -66,10 +66,10 @@ export default {
           name: 'Classic',
           price: 40.00,
           image: {
-            src: 'rectangle-9-copy.png',
+            src: 'rectangle-9-copy-2.png',
             srcset: {
-              x2: 'rectangle-9-copy@2x.png',
-              x3: 'rectangle-9-copy@3x.png'
+              x2: 'rectangle-9-copy-2@2x.png',
+              x3: 'rectangle-9-copy-2@3x.png'
             }
           }
         },
@@ -77,10 +77,10 @@ export default {
           name: 'Deluxe',
           price: 65.99,
           image: {
-            src: 'rectangle-9-copy.png',
+            src: 'rectangle-9-copy-3.png',
             srcset: {
-              x2: 'rectangle-9-copy@2x.png',
-              x3: 'rectangle-9-copy@3x.png'
+              x2: 'rectangle-9-copy-3@2x.png',
+              x3: 'rectangle-9-copy-3@3x.png'
             }
           }
         },
@@ -88,10 +88,10 @@ export default {
           name: 'Classic',
           price: 40.00,
           image: {
-            src: 'rectangle-9-copy.png',
+            src: 'rectangle-9-copy-2.png',
             srcset: {
-              x2: 'rectangle-9-copy@2x.png',
-              x3: 'rectangle-9-copy@3x.png'
+              x2: 'rectangle-9-copy-2@2x.png',
+              x3: 'rectangle-9-copy-2@3x.png'
             }
           }
         }
