@@ -200,10 +200,13 @@ li a{
     flex-wrap: wrap;
   }
   footer > .row >.col-2{
-    width: 40%
+    width: 100%
   }
-  footer > .row >.col-3{
-    margin-left: 7%;
+  footer > .row >.col-3, .social{
+    margin-left: 6.7%;
+  }
+  .social{
+    float: left;
   }
 }
 

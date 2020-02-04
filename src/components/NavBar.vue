@@ -108,6 +108,9 @@ nav ul li a{
     margin-top: 2%;
     margin-right: 3%;
   }
+  .w-f{
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

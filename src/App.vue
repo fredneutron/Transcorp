@@ -1,12 +1,10 @@
 <template>
   <div id="app">
-    <side-bar :toggle="toggle" :url="url" id="sidebar" />
+    <side-bar :toggle="toggle" :url="url" v-if="isSideBarActive === true" />
     <nav-bar class="nav" :toggle="toggle" :url="url" />
     <head-liner class="header" />
     <about id="about" />
     <bg class="bg" />
-    <i name="far fa-car"></i>
-    <font-awesome-icon icon="align-justify" />
     <contact id="contact" />
     <foot />
   </div>
@@ -18,10 +16,7 @@ export default {
   name: 'app',
   data: () => {
     return {
-      toggle: () => {
-        let sidebar = document.querySelector('#sidebar');
-        sidebar.style.display == "block" ? sidebar.style.display = "none !important" : sidebar.style.display = "block !important";
-      },
+      isSideBarActive: false,
       url: [
         {
         name: 'Home',
@@ -51,6 +46,13 @@ export default {
         name: 'Contact Us',
         src: '#contact'
       }]
+    }
+  },
+  methods: {
+    toggle() {
+      this.isSideBarActive === true
+        ? this.isSideBarActive = false
+        : this.isSideBarActive = true;
     }
   }
 }
