@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <nav-bar class="nav" />
+    <side-bar :toggle="toggle" :url="url" id="sidebar" />
+    <nav-bar class="nav" :toggle="toggle" :url="url" />
     <head-liner class="header" />
     <about id="about" />
     <bg class="bg" />
+    <i name="far fa-car"></i>
+    <font-awesome-icon icon="align-justify" />
     <contact id="contact" />
     <foot />
   </div>
@@ -13,6 +16,43 @@
 
 export default {
   name: 'app',
+  data: () => {
+    return {
+      toggle: () => {
+        let sidebar = document.querySelector('#sidebar');
+        sidebar.style.display == "block" ? sidebar.style.display = "none !important" : sidebar.style.display = "block !important";
+      },
+      url: [
+        {
+        name: 'Home',
+        src: '/.'
+      },
+      {
+        name: 'About Us',
+        src: '#about'
+      },
+      {
+        name: 'Our Rooms',
+        src: '#rooms'
+      },
+      {
+        name: `<img src='${require(`./assets/images/transcorp-1.png`)}' srcset='${require(`./assets/images/transcorp-1@2x.png`)} 2x, ${require(`./assets/images/transcorp-1@3x.png`)} 3x' class='transcorp1'>`,
+        src: '/.'
+      },
+      {
+        name: 'Reservation',
+        src: '#reserve'
+      },
+      {
+        name: 'Blog',
+        src: '#blog'
+      },
+      {
+        name: 'Contact Us',
+        src: '#contact'
+      }]
+    }
+  }
 }
 </script>
 
@@ -35,6 +75,10 @@ div.nav{
   right: 0;
   position: relative;
   z-index: 1;
+}
+.toggle{
+  border: 0px;
+  background: none;
 }
 div.header{
   margin-top: 0px;

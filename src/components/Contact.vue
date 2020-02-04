@@ -44,6 +44,9 @@ export default {
   .connect > .row{
     flex-direction: column-reverse;
   }
+  .connect .row .col-5{
+    padding-left: 10px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -62,6 +62,7 @@ export default {
   .-head{
     margin-top: 300px;
     width: 100%;
+    display: none;
   }
 }
 

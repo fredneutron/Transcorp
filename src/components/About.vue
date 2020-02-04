@@ -80,6 +80,18 @@ div.con-space{
 @media only screen and (max-width: 600px) {
   .about div{
     width: 90%;
+    margin-bottom: 20%;
+  }
+  .Rectangle-7 {
+    width: 100%;
+    object-fit: contain;
+    border: solid 3px #ffffff;
+    margin-top: -20%;
+    margin-bottom: -20%
+  }
+  div.con-space{
+    margin-bottom: 30%;
+    margin-top: 10%;
   }
 }
 
@@ -93,6 +105,9 @@ div.con-space{
   .about div{
     width: 80%;
   }
+  .Rectangle-7 {
+    border: solid 5px #ffffff;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -100,12 +115,18 @@ div.con-space{
   .about div{
     width: 60%;
   }
+  .Rectangle-7 {
+    border: solid 7px #ffffff;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .about div{
     width: 50%;
+  }
+  .Rectangle-7 {
+    border: solid 10px #ffffff;
   }
 }
 </style>
