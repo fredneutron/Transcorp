@@ -139,6 +139,9 @@ export default {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .blog{
+    width: 90%;
+  }
   .blog > .row{
     flex-direction: column;
   }

@@ -87,7 +87,7 @@ div.con-space{
     object-fit: contain;
     border: solid 3px #ffffff;
     margin-top: -20%;
-    margin-bottom: -20%
+    margin-bottom: -28%
   }
   div.con-space{
     margin-bottom: 30%;

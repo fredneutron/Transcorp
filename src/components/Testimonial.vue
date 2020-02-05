@@ -201,4 +201,13 @@ export default {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .t{
+    width: 100%;
+  }
+  .testimonials div blockquote{
+    width: 80%;
+  }
+}
 </style>

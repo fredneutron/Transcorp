@@ -200,14 +200,14 @@ export default {
 @media only screen and (max-width: 600px) {
   .room{
     z-index: 2;
-    margin-top: -700px;
+    margin-top: -220%;
     flex-direction: column;
   }
   .luxury-in > .col-5{
     width: 100%;
   }
   .luxury-in > .col-5 > div.col-12{
-    width: 70%;
+    width: 85%;
   }
   .luxury-in > .col-5 > div.col-12 > .row > .col-6{
     width: 100%;

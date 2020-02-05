@@ -203,10 +203,11 @@ li a{
     width: 100%
   }
   footer > .row >.col-3, .social{
-    margin-left: 6.7%;
+    margin-left: 10.7%;
   }
   .social{
     float: left;
+    width: 100%;
   }
 }
 

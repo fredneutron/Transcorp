@@ -12,7 +12,7 @@
       </nav>
       <nav class="m-f">
         <img src="../assets/images/transcorp-1.png" srcset="../assets/images/transcorp-1@2x.png 2x, ../assets/images/transcorp-1@3x.png 3x" class='transcorp' />
-        <button class="toggle" v-on:click="toggle()"><font-awesome-icon icon="align-justify"/></button>
+        <button class="toggle" v-on:click="toggle"><font-awesome-icon icon="align-justify"/></button>
         
       </nav>
     </div>
